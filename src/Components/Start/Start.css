@@ -1,0 +1,56 @@
+.start {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #Fff;
+  }
+  .start-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    width: 80%;
+    background: url(../assets/background.png);
+    border-radius: 20px;
+
+  }
+  .start-text h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+    margin-top: 30px;
+  }
+  .start-list {
+    font-size: 16px;
+  }
+  .start-list .second-li {
+    margin-top: 1rem;
+  }
+  .button-container {
+    margin-left: -340px;
+  }
+   .button-container .btnn{
+        background: #1ad71a;
+        color: #fff;
+        padding: 8px 30px;
+        border-radius: 20px;
+        font-size: 16px;
+        cursor: pointer;
+        outline: 0;
+    }
+    .button-container .img{
+        background-color: #fff;
+        width: 37px;
+        height: auto;
+        border-radius: 50%;
+        margin-left: -16px;
+    }
+  .start-image img{
+      height: 400px;
+      width: auto;
+  }
+  

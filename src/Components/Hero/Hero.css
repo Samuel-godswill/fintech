@@ -1,0 +1,66 @@
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  background: url(../assets/Background\ pattern.png),
+    url(../assets/background.png);
+  background-size: cover;
+  background-position: center;
+}
+.hero-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 8rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.hero-left h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.2;
+}
+.hero-left h1 span {
+  /* font-size: 4rem; */
+  font-weight: 700;
+  color: #e2ff54;
+  line-height: 1.2;
+}
+.hero-left p {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 18px;
+  width: 500px;
+}
+.button-container {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+.button-container button {
+  background: #00b512;
+  color: #dcdcdc;
+  border: none;
+  padding: 8px 30px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  outline: 0;
+  margin-left: 2rem;
+}
+.button-container .himg {
+  width: 37px;
+  height: auto;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-left: -15px;
+}
+.hero-right {
+  width: 40%;
+  margin-top: 6.5rem;
+}
+.hero-right .hero-img {
+  width: 100%;
+  height: auto;
+}

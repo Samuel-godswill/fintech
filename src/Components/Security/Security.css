@@ -1,0 +1,32 @@
+.security {
+  background: url(../assets/background.png);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.security-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8rem;
+  width: 80%;
+}
+.securityinfo h1{
+    color: #fff;
+    font-size: 45px;
+}
+.securityinfo p{
+    color: #fff;
+    font-weight: 300;
+}
+.securityinfo .about-us{
+    margin-bottom: 1rem;
+}
+.button-container .bcimg{
+  border-radius: 50%;
+  background-color: #fff;
+  margin-left: -15px;
+}
