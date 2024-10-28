@@ -65,7 +65,7 @@
   width: 100%;
   height: auto;
 }
-@media (max-width: 1024px) {
+@media (max-width: 850px) {
   .hero-container{
     flex-direction: column;
     align-items: center;
@@ -97,7 +97,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 650px) {
   .hero-container {
     margin-top: -3rem;
     flex-direction: column; 

@@ -77,7 +77,7 @@
     width: auto;
    }
 
-   @media (max-width: 1020px) {
+   @media (max-width: 800px) {
     .testimonial-flex {
       flex-direction: column;
       gap: 2rem; 
@@ -97,7 +97,7 @@
     }
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 600px) {
     .testimonials {
       height: auto; 
       padding: 1rem; 

@@ -41,7 +41,7 @@
 .footer-container .u{
     font-weight: 300;
 }
-@media (max-width: 1020px) {
+@media (max-width: 800px) {
     .footer {
         height: auto; 
         padding: 2rem 0; 
@@ -62,7 +62,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .footer {
         padding: 1rem; 
     }

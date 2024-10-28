@@ -181,7 +181,7 @@
 } 
 
 
-@media (max-width: 1020px) {
+@media (max-width: 800px) {
   .header {
     flex-direction: column;
     gap: 2rem;
@@ -245,7 +245,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .header {
     flex-direction: column;
     gap: 1rem;

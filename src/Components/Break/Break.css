@@ -9,7 +9,7 @@
 .break-container img{
   margin: 0 2.4rem;
 }
-@media (max-width: 1024px){
+@media (max-width: 800px){
  .break{
   width: 100%;
  }
@@ -17,7 +17,7 @@
   margin: 0 1rem;
  }
 }
-@media (max-width: 768px){
+@media (max-width: 600px){
   .break{
     width: 100%;
    }

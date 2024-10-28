@@ -58,7 +58,7 @@
     background-color: #eee6e6;
   }
   
-  @media (max-width: 1020px) {
+  @media (max-width: 800px) {
     .start {
       flex-direction: column; 
       height: auto; 
@@ -97,7 +97,7 @@
     }
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 600px) {
     .start {
       height: auto; 
       padding: 1rem;
