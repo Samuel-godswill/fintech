@@ -8,7 +8,7 @@ const Security = () => {
   return (
     <div className="security">
       <div className="security-container">
-        <img src={securityimg} alt="" />
+        <img className="etc" src={securityimg} alt="" />
         <div className="securityinfo">
         <p className="about-us">
             <img src={flame} alt="Flame icon" /> trustworthiness
@@ -20,9 +20,9 @@ const Security = () => {
             Our mission is to make finance more accessible, transparent, and
             secure for everyone. With cutting.
           </p>
-          <div className="button-container">
+          <div className="security-button">
             <button>Get started</button>
-            <img className="bcimg" src={arrow} alt="" />
+            <img src={arrow} alt="" />
           </div>
         </div>
       </div>

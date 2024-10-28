@@ -1,6 +1,7 @@
 .hero {
   width: 100%;
   min-height: 100vh;
+  overflow: hidden;
   background: url(../assets/Background\ pattern.png),
     url(../assets/background.png);
   background-size: cover;
@@ -13,8 +14,8 @@
   gap: 8rem;
   width: 80%;
   margin: 0 auto;
+  height: 100%;
 }
-
 .hero-left h1 {
   font-size: 4rem;
   font-weight: 700;
@@ -33,12 +34,13 @@
   font-size: 18px;
   width: 500px;
 }
-.button-container {
+.hero-button {
   display: flex;
+  /* justify-content: flex-start; */
   align-items: center;
   margin-top: 2rem;
 }
-.button-container button {
+.hero-button button {
   background: #00b512;
   color: #dcdcdc;
   border: none;
@@ -47,9 +49,8 @@
   font-size: 16px;
   cursor: pointer;
   outline: 0;
-  margin-left: 2rem;
 }
-.button-container .himg {
+.hero-button .himg {
   width: 37px;
   height: auto;
   border-radius: 50%;
@@ -57,10 +58,75 @@
   margin-left: -15px;
 }
 .hero-right {
-  width: 40%;
+  width: 420px;
   margin-top: 6.5rem;
 }
 .hero-right .hero-img {
   width: 100%;
   height: auto;
+}
+@media (max-width: 1024px) {
+  .hero-container{
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    width: 80%;
+  }
+  .hero-left{
+    margin-top: 22rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .hero-left h1{
+    font-size: 5rem;
+    text-align: center;
+  }
+  .hero-left p{
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-right{
+    width: 400px;
+    display: none;
+  }
+  .hero-right .hero-img{
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-container {
+    margin-top: -3rem;
+    flex-direction: column; 
+    align-items: center;
+    gap: 2rem; 
+  }
+
+  .hero-left h1 {
+    font-size: 3rem; 
+    text-align: center;
+  }
+
+  .hero-left p {
+    font-size: 16px; 
+    width: 70%; 
+    text-align: center; 
+    margin-top: 1rem;
+  }
+
+  .hero-button {
+    align-items: center; 
+  }
+
+  .hero-button button {
+    padding: 9px 18px; 
+    font-size: 16px; 
+  }
+  .hero-button .himg{
+    width: 40px;
+    height: auto;
+  }
 }

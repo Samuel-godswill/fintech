@@ -11,12 +11,14 @@ import complogo6 from '../assets/complogo6.png'
 const Break = () => {
   return (
     <div className='break'>
+            <div className="break-container">
             <img src={complogo1} alt="" />
             <img src={complogo2} alt="" />
             <img src={complogo3} alt="" />
             <img src={complogo4} alt="" />
             <img src={complogo5} alt="" />
             <img src={complogo6} alt="" />
+            </div>
         </div>
   )
 }

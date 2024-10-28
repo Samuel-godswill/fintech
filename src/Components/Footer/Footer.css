@@ -41,3 +41,47 @@
 .footer-container .u{
     font-weight: 300;
 }
+@media (max-width: 1020px) {
+    .footer {
+        height: auto; 
+        padding: 2rem 0; 
+    }
+
+    .footer-container {
+        width: 90%; 
+        gap: 1.5rem; 
+    }
+
+    .footer-links ul {
+        align-items: center; 
+    }
+
+    .footer-links ul li {
+        margin: 10px 20px; 
+        font-size: 14px; 
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 1rem; 
+    }
+
+    .footer-container {
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .footer-links ul {
+        align-items: center; 
+    }
+
+    .footer-links ul li {
+        margin: 5px 10px; 
+        font-size: 12px; 
+    }
+
+    .footer-container .t {
+        font-size: 14px; 
+    }
+}

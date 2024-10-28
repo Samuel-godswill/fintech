@@ -24,8 +24,8 @@ const Features = () => {
               Upgrade6
             </li>
           </ul>
-          <div className="button-container">
-            <button className="btn">Get started</button>
+          <div className="features-button">
+            <button>Get started</button>
             <img className="iimg" src={arrow} alt="" />
           </div>
         </div>

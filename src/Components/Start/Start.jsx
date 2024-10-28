@@ -16,13 +16,13 @@ const Start = () => {
             <br /> highlights and notes automatically Glose is the ultimate
             reading
           </p>
-          <div className="button-container">
-            <button className="btnn">Get started</button>
-            <img className="img" src={arrow} alt="" />
+          <div className="start-button">
+            <button>Get started</button>
+            <img src={arrow} alt="" />
           </div>
         </div>
         <div className="start-image">
-          <img className="img" src={start} alt="" />
+          <img src={start} alt="" />
         </div>
       </div>
     </div>

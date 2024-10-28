@@ -6,6 +6,7 @@
     align-items: center;
     justify-content: center;
     color: #Fff;
+    margin-bottom: 2rem;
   }
   .start-container {
     display: flex;
@@ -15,7 +16,7 @@
     width: 80%;
     background: url(../assets/background.png);
     border-radius: 20px;
-
+    padding: 15px 0 0 0;
   }
   .start-text h2 {
     text-transform: uppercase;
@@ -30,27 +31,112 @@
   .start-list .second-li {
     margin-top: 1rem;
   }
-  .button-container {
-    margin-left: -340px;
-  }
-   .button-container .btnn{
-        background: #1ad71a;
-        color: #fff;
-        padding: 8px 30px;
-        border-radius: 20px;
-        font-size: 16px;
-        cursor: pointer;
-        outline: 0;
-    }
-    .button-container .img{
-        background-color: #fff;
-        width: 37px;
-        height: auto;
-        border-radius: 50%;
-        margin-left: -16px;
-    }
   .start-image img{
       height: 400px;
       width: auto;
+      margin-bottom: -7px;
+  }
+  .start-button {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  .start-button button {
+    background: #00b512;
+    color: #dcdcdc;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: 0;
+  }
+  .start-button img {
+    border-radius: 50%;
+    width: 37px;
+    height: auto;
+    background-color: #eee6e6;
   }
   
+  @media (max-width: 1020px) {
+    .start {
+      flex-direction: column; 
+      height: auto; 
+      padding: 2rem 0;
+    }
+    .start-container {
+      flex-direction: column;
+      gap: 2rem; 
+      width: 90%;
+      align-items: center;
+      justify-content: center;
+    }
+    .start-text h2 {
+      font-size: 36px; 
+      text-align: center;
+    }
+    .start-text p {
+      text-align: center;
+    }
+    .start-list {
+      font-size: 14px; 
+    }
+    .start-image img {
+      height: 300px; 
+    }
+    .start-button{
+      align-items: center;
+      justify-content: center;
+    }
+    .start-button button {
+      padding: 6px 20px;
+      font-size: 14px; 
+    }
+    .start-button img {
+      width: 30px; 
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .start {
+      height: auto; 
+      padding: 1rem;
+    }
+  
+    .start-container {
+      width: 100%;
+      padding: 1rem;
+    }
+  
+    .start-text h2 {
+      font-size: 28px;
+      text-align: center;
+    }
+    .start-text p {
+      text-align: center;
+    }
+  
+    .start-list {
+      font-size: 12px;
+    }
+  
+    .start-image img {
+      height: 250px; 
+    }
+  
+    .start-button {
+      margin-top: 1rem;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .start-button button {
+      padding: 5px 15px; 
+      font-size: 12px;
+    }
+  
+    .start-button img {
+      width: 25px; 
+      margin-left: -12px;
+    }
+  }
