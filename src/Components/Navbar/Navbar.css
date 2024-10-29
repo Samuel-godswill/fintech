@@ -44,15 +44,7 @@ nav ul li{
     width: auto;
     display: none;
 }
-@media (max-width: 800px){
-    .logo{
-        width: 100px;
-    }
-    nav ul li{
-        margin: 10px 15px;
-    }
-}
-@media (max-width: 600px){
+@media (max-width: 800px) {
     nav{
         padding: 15px 0;
     }
@@ -72,7 +64,8 @@ nav ul li{
     }
     .menu-icon{
         display: block;
-        width: 30px;
+        width: 45px;
+        height: auto;
         cursor: pointer;
     }
     .hide-mobile{
@@ -81,5 +74,121 @@ nav ul li{
     .btn{
         display: none;
     }
+    
+    .logo {
+        height: 50px;
+        width: auto;
+    }
 }
 
+@media (max-width: 750px) {
+    nav {
+        padding: 10px 0;
+    }
+    .logo {
+        height: 45px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    nav{
+        padding: 15px 0;
+    }
+    nav ul{
+        position: fixed;
+        top: 0;
+        right: 0px;
+        background: #04684c;
+        z-index: -1;
+        width: 200px;
+        padding-top: 70px;
+        transition: 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px 40px;
+    }
+    .btn{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+        width: 35px;
+        cursor: pointer;
+    }
+    .hide-mobile{
+        right: -200px;
+    }
+    .logo {
+        height: 45px;
+        width: auto;
+    }
+
+}
+
+@media (max-width: 480px) {
+    nav {
+        padding: 10px 0;
+    }
+    nav ul li {
+        margin: 20px 30px;
+    }
+}
+
+
+@media (max-width: 390px) {
+    nav {
+        padding: 5px 0; 
+        background: #004852;
+    }
+
+    .logo {
+        height: 20px;
+        width: auto; 
+    }
+
+    nav ul {
+        position: fixed;
+        top: 0;
+        right: 0;
+        background: #04684c;
+        z-index: 10; 
+        width: 100%; 
+        padding-top: 70px; 
+        transition: 0.5s;
+        margin: 0; 
+    }
+
+    nav ul li {
+        display: block; 
+        margin: 15px 0; 
+        font-size: 14px; 
+        text-align: center;
+    }
+
+    .btn {
+        display: none; 
+    }
+
+    .menu-icon {
+        display: block; 
+        width: 20px; 
+        height: auto; 
+        cursor: pointer;
+    }
+
+    .hide-mobile {
+        right: -100%; 
+    }
+}
+
+@media (max-width: 320px) {
+    nav {
+        padding: 5px 0;
+    }
+    nav ul li {
+        margin: 10px 20px;
+        font-size: 12px;
+    }
+}

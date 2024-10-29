@@ -87,19 +87,80 @@ section p {
     margin-top: 5rem;
     margin-bottom: 2rem;
   }
+  .about-container {
+    gap: 3rem;
+  }
+  .aimg {
+    height: 250px;
+  }
   .second-page {
     margin-top: 20px;
   }
+  .second-page .about-us {
+    font-size: 12px;
+    width: 100px;
+    padding: 5px 10px;
+  }
   .second-page section {
-    width: 400px;
+    width: 300px;
+    padding: 15px 30px;
+  }
+  section h3 {
+    font-size: 14px;
   }
   .second-page h2 {
-    font-size: 40px;
+    font-size: 36px;
     margin-bottom: 5px;
   }
+  .sections {
+    padding-left: 12px;
+  }
   section p {
-    font-size: 14px;
+    font-size: 11px;
     color: #6b6969;
+  }
+}
+
+@media (max-width: 480px) {
+  .about {
+    height: auto; /* Adjust height for smaller screens */
+    padding: 15px; /* Add padding for better spacing */
+    flex-direction: column; /* Stack elements vertically */
+  }
+
+  .about-container {
+    flex-direction: column; /* Ensure container stacks items */
+    gap: 1.5rem; /* Adjust gap between items */
+    width: 90%; /* Use more width for smaller screens */
+  }
+
+  .aimg {
+    height: 200px; /* Reduce image height */
+    width: auto; /* Maintain aspect ratio */
+  }
+  
+  .second-page {
+    margin-top: 15px; /* Adjust margin for the second page */
+  }
+
+  .second-page .about-us {
+    font-size: 10px; /* Smaller font size */
+    width: 80px; /* Adjust width */
+    padding: 5px 10px; /* Adjust padding */
+  }
+
+  .second-page h2 {
+    font-size: 28px; /* Smaller heading size */
+    margin-bottom: 3px; /* Adjust margin */
+  }
+
+  .sections {
+    padding-left: 10px; /* Adjust padding */
+  }
+
+  .second-page section {
+    width: 250px; 
+    padding: 10px 20px; 
   }
 }
 
@@ -109,8 +170,60 @@ section p {
     flex-direction: column;
     padding: 20px;
   }
-  .about-container{
+  .about-container {
     flex-direction: column;
     gap: 2rem;
+  }
+}
+
+@media (max-width: 390px) {
+  .about {
+    height: auto;
+    padding: 15px;
+  }
+
+  .about-container {
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 90%;
+  }
+
+  .aimg {
+    height: 200px;
+    width: auto;
+  }
+  .second-page {
+    margin-top: 15px;
+  }
+
+  .second-page .about-us {
+    font-size: 10px;
+    width: 80px;
+    padding: 5px 10px;
+  }
+
+  .second-page h2 {
+    font-size: 28px;
+    margin-bottom: 3px;
+  }
+
+  .sections {
+    padding-left: 10px;
+  }
+
+  .second-page section {
+    width: 250px;
+    padding: 10px 20px;
+  }
+
+  section h3 {
+    font-size: 12px;
+  }
+
+  section p {
+    font-size: 10px;
+  }
+  .about-us{
+    display: none;
   }
 }

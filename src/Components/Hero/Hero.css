@@ -69,37 +69,33 @@
   .hero-container{
     flex-direction: column;
     align-items: center;
-    gap: 0;
     width: 80%;
   }
   .hero-left{
-    margin-top: 22rem;
+    margin-top: 12rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
   .hero-left h1{
-    font-size: 5rem;
+    font-size: 4rem;
     text-align: center;
   }
   .hero-left p{
     font-size: 18px;
-    align-items: center;
-    justify-content: center;
+    width: 90%;
   }
   .hero-right{
     width: 400px;
-    display: none;
-  }
-  .hero-right .hero-img{
-    width: 100%;
+    display: block;
+    margin-top: -7rem;
   }
 }
 
 @media (max-width: 650px) {
   .hero-container {
-    margin-top: -3rem;
+    margin-top: 10rem;
     flex-direction: column; 
     align-items: center;
     gap: 2rem; 
@@ -128,5 +124,120 @@
   .hero-button .himg{
     width: 40px;
     height: auto;
+  }
+  .hero-right{
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    min-height: auto; 
+    padding: 20px; 
+    background-size: cover; 
+    background-position: center;
+  }
+
+  .hero-container {
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    gap: 2rem; 
+  }
+
+  .hero-left {
+    margin-top: -5rem; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+  }
+
+  .hero-left h1 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+  }
+
+  .hero-left p {
+    font-size: 10px; 
+    width: 90%; 
+  }
+
+  .hero-button {
+    display: flex;
+    align-items: center; 
+    margin-top: 1rem; 
+  }
+
+  .hero-button button {
+    padding: 5px 10px;
+    font-size: 10px; 
+  }
+
+  .hero-button .himg {
+    width: 25px; 
+    height: auto;
+    margin-left: -10px;
+  }
+}
+
+@media (max-width: 390px) {
+  .hero {
+    min-height: auto; 
+    padding: 20px; 
+    background-size: cover; 
+    background-position: center;
+  }
+
+  .hero-container {
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    gap: 2rem; 
+  }
+
+  .hero-left {
+    margin-top: -5rem; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+  }
+
+  .hero-left h1 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+  }
+
+  .hero-left p {
+    font-size: 8px;
+    width: 90%; 
+  }
+
+  .hero-button {
+    display: flex;
+    align-items: center; 
+    margin-top: 1rem; 
+  }
+
+  .hero-button button {
+    padding: 5px 10px;
+    font-size: 10px; 
+  }
+
+  .hero-button .himg {
+    width: 25px; 
+    height: auto;
+    margin-left: -10px; 
+  }
+
+  .hero-right {
+    width: 100%; 
+    margin-top: 0;
+    display: block;
+  }
+
+  .hero-right .hero-img {
+    display: none;
   }
 }

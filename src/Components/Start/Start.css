@@ -94,8 +94,19 @@
     }
     .start-button img {
       width: 30px; 
+      margin-left: -12px;
     }
   }
+
+  @media (max-width: 750px) {
+    .start-text h2 {
+      font-size: 34px;
+    }
+    .start-list {
+      font-size: 13px;
+    }
+  }
+  
   
   @media (max-width: 600px) {
     .start {
@@ -138,5 +149,31 @@
     .start-button img {
       width: 25px; 
       margin-left: -12px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .start-text h2 {
+      font-size: 24px;
+    }
+    .start-list {
+      font-size: 11px;
+    }
+  }
+  @media (max-width: 390px) {
+    .start-text h2 {
+      font-size: 22px;
+    }
+    .start-list {
+      font-size: 10px;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .start-text h2 {
+      font-size: 20px;
+    }
+    .start-list {
+      font-size: 9px;
     }
   }

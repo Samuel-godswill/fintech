@@ -57,6 +57,10 @@
   .security-container {
     gap: 1rem;
   }
+  .security-container .etc{
+    width: 350px;
+    height: auto;
+  }
   .securityinfo h1 {
     font-size: 30px; 
   }
@@ -72,6 +76,14 @@
   }
 }
 
+
+@media (max-width: 750px) {
+  .security-container {
+    gap: 1rem;
+  }
+}
+
+
 @media (max-width: 600px) {
   .security {
     height: auto; 
@@ -80,6 +92,10 @@
   .security-container {
     gap: 2rem; 
     width: 100%; 
+  }
+  .security-container .etc{
+    width: 250px;
+    height: auto;
   }
   .securityinfo h1 {
     font-size: 28px;
@@ -100,5 +116,91 @@
   .etc{
     height: 400px;
     width: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .securityinfo h1 {
+    font-size: 26px;
+  }
+  .securityinfo p {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 390px) {
+  .security {
+    height: auto; 
+    padding: 10px; 
+  }
+
+  .security-container {
+    flex-direction: column; 
+    gap: 1rem; 
+    width: 100%; 
+  }
+
+  .securityinfo h1 {
+    font-size: 24px; 
+    text-align: center; 
+  }
+
+  .securityinfo p {
+    font-size: 10px; 
+    text-align: center; 
+  }
+
+  .security-button {
+    justify-content: center;
+    margin-top: 1rem; 
+  }
+
+  .security-button button {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+
+  .security-button img {
+    width: 20px;
+  }
+  .security-container .etc{
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .security {
+    height: auto; 
+    padding: 10px;
+  }
+  .security-container {
+    flex-direction: column; 
+    gap: 1rem; 
+    width: 100%;
+  }
+  .securityinfo h1 {
+    font-size: 26px; 
+    text-align: center; 
+  }
+  .securityinfo p {
+    text-align: center; 
+  }
+  .security-button{
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
+@media (max-width: 320px) {
+  .securityinfo h1 {
+    font-size: 20px;
+  }
+  .securityinfo p {
+    font-size: 9px;
+  }
+  .security-button button {
+    padding: 5px 8px;
+    font-size: 10px;
   }
 }
